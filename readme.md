@@ -1,6 +1,6 @@
 # Search Functionality using BLUGE
 
-![BLUGE]("https://blugelabs.com/img/avatar.png")
+![BLUGE](https://blugelabs.com/img/avatar.png)
 
 ## What is a search functionality?
 
