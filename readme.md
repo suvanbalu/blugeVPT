@@ -18,3 +18,5 @@ Once the user enter their keyword , the program searches for the keyword in all 
 
 ### How a search-index can improve your website?
 Search engines collect the content of your website automatically. Through an algorithm, your search results are prioritized. Some results will be given more weight, so they will show up before other pages on the results page.
+
+### Why bluge over bleve?
