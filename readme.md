@@ -20,3 +20,8 @@ Once the user enter their keyword , the program searches for the keyword in all 
 Search engines collect the content of your website automatically. Through an algorithm, your search results are prioritized. Some results will be given more weight, so they will show up before other pages on the results page.
 
 ### Why bluge over bleve?
+The design of Bluge is largely the same as Bleve. One of the biggest design changes of Bluge is that it now supports a **pluggable Directory** implementation. This Directory interface decouples the index implementation from many OS/filesystem details. This let us introduce a much more **efficient in-memory-only index**, something Bleve still struggles to offer today.
+
+The next major change is that Bluge supports accessing the index from **multiple process** (via OS locking primitives). Only one process can write at a time, but it is very useful architecturally to be able to search indexes from multiple processes, which is not possible with Bleve today.
+
+Finally, there are a bunch of other smaller changes. Bluge uses **BM25**, not TF/IDF, and has **more configurable/customizable scoring**. And Bluge has a **proper aggregation framework**, allowing you to easily build your own aggregations over all the search hits seen (in Bleve, only a limited faceting option is available).
