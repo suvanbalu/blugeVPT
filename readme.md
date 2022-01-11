@@ -3,7 +3,7 @@
 <img src="https://blugelabs.com/img/avatar.png" alt="bluge-icon" width="200" align="right"/>
 
 ## What is Bluge?
-Bluge is an indexing/search library for Go.Developers can then search the index to find matching documents. Bluge supports many types of queries, which can be composed into more complex queries with boolean operators.Bluge supports an advanced aggregation framework, allowing the developer to compute aggregated values over the set of matching documents.
+Bluge is an indexing/search library for Go.Developers can then search the index to find matching documents. Bluge supports many types of queries, which can be composed into more complex queries with boolean operators.Bluge supports an advanced aggregation framework, allowing the developer to compute aggregated values over the set of matching documents.It uses **bleve** search and **BM25 algorithm** for searching and indexing. 
 
 ### What is a search functionality?
 
